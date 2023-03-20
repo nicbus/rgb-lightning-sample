@@ -19,4 +19,4 @@ jobs:
       - name: Build on Rust stable
         run: cargo build --verbose --color always
       - name: Check formatting
-        run: rustup component add rustfmt && cargo fmt --all -- --check
+        run: rustup component add rustfmt && cargo fmt -- --check
